@@ -1,0 +1,380 @@
+*,html,body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(31, 29, 29);
+    scroll-behavior: smooth;
+}
+
+.sidenav a {
+   position: fixed;
+    left: -90px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    scroll-behavior: smooth;
+    border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -ms-border-radius: 0 10px 10px 0;
+    -o-border-radius: 0 10px 10px 0;
+}
+  
+  #Sidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #about {
+    top: 190px;
+    background-color: #04AA6D;
+  }
+  
+  #album {
+    top: 250px;
+    background-color: blue; /* Blue */
+  }
+  
+  #projects {
+    top: 310px;
+    background-color: #f44336; /* Red */
+  }
+  
+  #contact {
+    top: 370px;
+    background-color: deepskyblue /* Light Black */
+  }
+
+
+
+  .isi {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .header {
+    height: 100vh;
+  }
+
+  .center {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .headtxt {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 750;
+  }
+
+  .headtxt:hover {
+    color: orangered;
+    transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+}
+
+.desktxt {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.desktxt:hover {
+  color: red;
+}
+
+.header-icon {
+  width: 10%;
+  height: 20%;
+  margin-left: 45%;
+  margin-bottom: -20%;
+}
+
+.flyingtext {
+  font-size: 30px;
+  text-wrap: wrap;
+}
+
+.flyingtxt-satu {
+  width: 180px;
+  height: auto;
+  background-color: crimson;
+  border-radius: 25%;
+  rotate: 5deg;
+  margin-left: 70%;
+  margin-right: 40%;
+  margin-top: 10%;
+  text-align: center;
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+  -ms-border-radius: 25%;
+  -o-border-radius: 25%;
+  padding: 15px;
+}
+
+.flyingtxt-dua {
+  width: 180px;
+  height: auto;
+  background-color: orange;
+  border-radius: 25%;
+  rotate: 5deg;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 0;
+  text-align: center;
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+  -ms-border-radius: 25%;
+  -o-border-radius: 25%;
+  padding: 15px;
+}
+
+.flyingtxt-tiga {
+  width: 9em;
+  height: 80px;
+  background-color: blue;
+  border-radius: 27%;
+  rotate: 5deg;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 80%;
+  margin-top: -15%;
+  text-align: center;
+  -webkit-border-radius: 27%;
+  -moz-border-radius: 27%;
+  -ms-border-radius: 27%;
+  -o-border-radius: 27%;
+  padding: 15px;
+}
+
+.flyingtxt-empat {
+  width: 100%;
+  background-color: green;
+  margin-top: 12%;
+  text-align: center;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, lightgrey,transparent );
+  z-index: 1000;
+  margin-bottom: 0;
+}
+
+.about {
+  height: 100vh;
+  margin-top: 0;
+  background-color: lightgrey;
+}
+
+.abouttxt {
+  background-color: lightgrey;
+  color: black;
+}
+
+.aboutheadtxt {
+  font-size: 2.5em;
+  font-weight: 750;
+}
+
+.aboutheadtxt:hover {
+  color: brown;
+}
+
+.about-fly-txt-a {
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-left: 4%;
+  background-color: red;
+  width: 200px;
+  height: auto;
+  text-align: center;
+  border-radius: 45%;
+  -webkit-border-radius: 45%;
+  -moz-border-radius: 45%;
+  -ms-border-radius: 45%;
+  -o-border-radius: 45%;
+  padding: 30px;
+}
+
+.about-fly-txt-b {
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-left: 4%;
+  background-color: red;
+  width: 200px;
+  height: auto;
+  text-align: center;
+  border-radius: 45%;
+  -webkit-border-radius: 45%;
+  -moz-border-radius: 45%;
+  -ms-border-radius: 45%;
+  -o-border-radius: 45%;
+  padding: 30px;
+}
+
+.about-fly-txt-c {
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-left: 4%;
+  background-color: red;
+  width: 200px;
+  height: auto;
+  text-align: center;
+  border-radius: 45%;
+  -webkit-border-radius: 45%;
+  -moz-border-radius: 45%;
+  -ms-border-radius: 45%;
+  -o-border-radius: 45%;
+  padding: 30px;
+}
+
+.about-fly-txt-d {
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: 4%;
+  margin-top: -36%;
+  background-color: red;
+  width: 250px;
+  height: auto;
+  text-align: center;
+  border-radius: 45%;
+  -webkit-border-radius: 45%;
+  -moz-border-radius: 45%;
+  -ms-border-radius: 45%;
+  -o-border-radius: 45%;
+  padding: 30px;
+}
+
+.about-fly-txt-e {
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: 4%;
+  background-color: red;
+  width: 250px;
+  height: auto;
+  text-align: center;
+  border-radius: 45%;
+  -webkit-border-radius: 45%;
+  -moz-border-radius: 45%;
+  -ms-border-radius: 45%;
+  -o-border-radius: 45%;
+  padding: 30px;
+}
+
+.about-fly-txt-f {
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: 4%;
+  background-color: red;
+  width: 250px;
+  height: auto;
+  text-align: center;
+  border-radius: 45%;
+  -webkit-border-radius: 45%;
+  -moz-border-radius: 45%;
+  -ms-border-radius: 45%;
+  -o-border-radius: 45%;
+  padding: 30px;
+}
+
+.about-fly-txt-g {
+  font-size: 1.7em;
+  margin-left: 37%;
+  margin-right: 50%;
+  margin-top: -30%;
+  background-color: red;
+  width: 250px;
+  height: auto;
+  text-align: center;
+  border-radius: 45%;
+  -webkit-border-radius: 45%;
+  -moz-border-radius: 45%;
+  -ms-border-radius: 45%;
+  -o-border-radius: 45%;
+  padding: 30px;
+}
+
+.margin10px {
+  margin-top: 10px;
+}
+
+.btn-cta {
+  background-color: orange;
+  color: white;
+  border: 1px aqua;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 30%;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  -ms-border-radius: 30%;
+  -o-border-radius: 30%;
+}
+
+.btn-cta:hover {
+  background-color: lightcoral;
+  color: black;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  background: linear-gradient(to top, green, transparent );
+  margin-bottom: -50%;
+}
+
+.album8h {
+  height: 400vh;
+  background-color: green;
+}
+
+.photocontainer {
+  background-color: green;
+}
+
+.photocard {
+  margin-left: 10%;
+  background-color: lightblue;
+  padding: 10px;
+  width: 250px;
+  height: 20%;
+}
+
+.photoheadtxt {
+  margin-top: 34px;
+  font-size: 4em;
+  color: white;
+  font-weight: 750;
+  background-color: green;
+}
+
+.photodesktxt {
+  font-size: 3em;
+  color: white;
+  font-weight: 700;
+  background-color: lightgreen;
+}
+
+.photo-1 {
+  margin-left: 2%;
+  left: 0;
+}
